@@ -1,0 +1,14 @@
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\bin\Debug\net6.0\eva2DWSJaviMBC_DAL.deps.json
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\bin\Debug\net6.0\eva2DWSJaviMBC_DAL.runtimeconfig.json
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\bin\Debug\net6.0\eva2DWSJaviMBC_DAL.dll
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\bin\Debug\net6.0\eva2DWSJaviMBC_DAL.pdb
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.csproj.AssemblyReference.cache
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.AssemblyInfoInputs.cache
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.AssemblyInfo.cs
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.csproj.CoreCompileInputs.cache
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.dll
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\refint\eva2DWSJaviMBC_DAL.dll
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.pdb
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\eva2DWSJaviMBC_DAL.genruntimeconfig.cache
+C:\Users\menaj\source\repos\eva2DWSJaviMBC\eva2DWSJaviMBC_DAL\obj\Debug\net6.0\ref\eva2DWSJaviMBC_DAL.dll
