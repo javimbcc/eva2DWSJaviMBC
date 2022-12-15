@@ -61,7 +61,7 @@ namespace eva2DWSJaviMBC.Controllers
             //Hacemos la consulta y metemos sus datos en la lista
             dataUser = ConsultasPostgreSQL.RecolectarPrimeraEvaluacion(_config);
             //Devolvemos los datos a la vista
-            return View("PrimeraEvaluacion",dataUser);
+            return View("PrimeraEvaluacion", dataUser);
         }
 
         //Vista con la segunda evaluacion
@@ -77,7 +77,7 @@ namespace eva2DWSJaviMBC.Controllers
             //Hacemos la consulta y metemos sus datos en la lista
             dataUser = ConsultasPostgreSQL.RecolectarSegundaEvaluacion(_config);
             //Devolvemos los datos a la vista
-            return View("SegundaEvaluacion",dataUser);
+            return View("SegundaEvaluacion", dataUser);
         }
 
         //Vista con la tercera evaluacion
@@ -103,14 +103,14 @@ namespace eva2DWSJaviMBC.Controllers
             return View("AñadirEv");
         }
         [HttpPost]
-        public IActionResult AñadirEv(string MdUuid, string Fecha, string codAlumno, string NotaEv, string CodEva)
+        public IActionResult AñadirEv(string MdUuid,  string codAlumno, string NotaEv, string CodEva)
         {
             //Hacemos la conexion
             using var connection = new NpgsqlConnection(_config.GetConnectionString("cadena"));
             Console.WriteLine("HABRIENDO CONEXION");
             connection.Open();
             //Ejecutamos el Insert
-            ConsultasPostgreSQL.AñadirRegistros(_config, MdUuid, Fecha, codAlumno, NotaEv, CodEva);
+            ConsultasPostgreSQL.AñadirRegistros(_config, MdUuid, codAlumno, NotaEv, CodEva);
             //Cerramos la conexion
             connection.Close();
             //Devolvemos a la vista inicial por si quiere seguir metiendo datos

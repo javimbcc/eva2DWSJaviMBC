@@ -139,7 +139,7 @@ namespace eva2DWSJaviMBC.Models.Consultas
 
         //Metodo para añadir registros del alumno
 
-        public static void AñadirRegistros(IConfiguration _config, string MdUuid, string Fecha, string codAlumno, string NotaEv, string CodEva)
+        public static void AñadirRegistros(IConfiguration _config, string MdUuid, string codAlumno, string NotaEv, string CodEva)
         {
             Console.WriteLine("[Modelos-Consultas-ConsultasPostgreSQL.AñadirRegistros]: Entrando a la consulta de todas las evaluaciones");
             //Cogemos la cadena de conexión de nuestro Contexto
@@ -149,7 +149,7 @@ namespace eva2DWSJaviMBC.Models.Consultas
             connection.Open();
             //Definimos y ejecutamos la consulta
             Console.WriteLine("[Modelos-Consultas-ConsultasPostgreSQL.AñadirRegistros]: Ejecutamos la consulta");
-            NpgsqlCommand consulta = new NpgsqlCommand($"INSERT INTO \"sc_evaluacion\".\"eva_tch_notas_evaluacion\" (md_uuid, md_fch, cod_alumno,nota_evaluacion,cod_evaluacion) VALUES('{MdUuid}','{Fecha}','{codAlumno}','´{NotaEv}','{CodEva}')", connection);
+            NpgsqlCommand consulta = new NpgsqlCommand($"INSERT INTO \"sc_evaluacion\".\"eva_tch_notas_evaluacion\" (md_uuid,cod_alumno,nota_evaluacion,cod_evaluacion) VALUES('{MdUuid}','{codAlumno}','´{NotaEv}','{CodEva}')", connection);
             NpgsqlDataReader resultadoConsulta = consulta.ExecuteReader();
             //Hacemos la validación para ver si la contraseña es adecuada
             Console.WriteLine("[Modelos-Consultas-ConsultasPostgreSQL.AñadirRegistros]: Terminada ejecución de la consulta");

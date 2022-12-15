@@ -14,11 +14,11 @@ public partial class EvaTchNotasEvaluacion
 
     public string IdNotaEvaluacion { get; set; }
 
-    public string? CodAlumno { get; set; }
+    public string CodAlumno { get; set; }
 
-    public string? NotaEvaluacion { get; set; }
+    public string NotaEvaluacion { get; set; }
 
-    public string? CodEvaluacion { get; set; }
+    public string CodEvaluacion { get; set; }
 
     public virtual EvaCatEvaluacion? CodEvaluacionNavigation { get; set; }
 
